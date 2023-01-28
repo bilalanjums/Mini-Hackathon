@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      td {
+        border: 1px solid black;
+      }
+    </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">Admin Panel</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <!-- <form class="d-flex"> -->
+          <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+          <a href="./Add_Product.html">
+            <button class="btn btn btn-primary" type="submit">
+              Add Product
+            </button></a
+          >
+          <!-- </form> -->
+        </div>
+      </div>
+    </nav>
+
+    <!-- <div class="wrapper">
+      <div class="sidebar">
+          <h2>Foodies <br>corner</h2>
+          <ul>
+              <li><a href="#"><i class="about"></i>About</a></li>
+              <li><a href="#"><i class="service"></i>Services</a></li>
+              <li><a href="#"><i class="cuisin"></i>Cuisine</a></li>
+              <li><a href="#"><i class="Gallery"></i>Gallery</a></li>
+              <li><a href="#"><i class="Contact"></i>Contact</a></li>
+              <li><a href="#"><i class="Book"></i>Book</a></li>
+                 </ul>
+       
+      
+    <div class="btn-group">
+    <button>Cart</button>
+   
+  </div>
+      </div>
+      </div>
+      
+  
+    <div class="container">
+      <h1 style="font-size:40px;"> What are you<br>
+        having for Lunch?</h1>
+   
+      </div>
+      <div class="row">
+        <div class="card">
+         
+          <div class="card-body">
+            <div class="img">
+           <img src="https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bWV4aWNhbiUyMGZvb2R8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Mexican Taco" width= "280" height="220">
+            <h2> Mexican Taco</h2>
+          </div>
+        </div>
+          </div>
+        <div class="card">
+          
+          <div class="card-body">
+            <img src="https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bWV4aWNhbiUyMGZvb2R8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Mexican Taco" width= "280" height="220">
+            <h2> Mexican Taco</h2>
+          
+            
+          </div>
+        </div>
+        <div class="card">
+          
+          <div class="card-body">
+            <img src="https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bWV4aWNhbiUyMGZvb2R8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Mexican Taco" width= "280" height="220">
+            <h2> Mexican Taco</h2>
+         
+    
+          </div>
+        </div>
+        <div class="card">
+         <div class="card-body">
+            <img src="https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bWV4aWNhbiUyMGZvb2R8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Mexican Taco" width= "280" height="220">
+           <h2> Mexican Taco</h2>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <h1>Admin panel</h1>
+    <a href="./Add_Product.html"> <button>Add Product</button></a> -->
+    <br>
+
+    <div class="container">
+      <h1>Our Dishes</h1>
+      &nbsp;
+      <div class="row row-cols-1 row-cols-md-3 g-4" id="product">
+        <!-- <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+            </div>
+          </div>
+        </div> -->
+        <!-- <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4 class="card-title"><span>01.</span> Card title</h5>
+              <h5 class="card-title">Only in 120$</h3>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="card-link"><button class="btn btn-primary">Edit</button></a>
+              <a href="#" class="card-link"><button class="btn btn-danger">Delete</button></a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- <table id="product" style="border: 1px solid black">
+      <tr>
+        <th>S.No</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Qty</th>
+        <th>Img</th>
+        <th>View</th>
+      </tr>
+    </table> -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-storage.js"></script>
+
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyBy0gRzzGQP5OfTJmfQ0Q3bE5Zh9Th40H4",
+        authDomain: "well-dishes-app.firebaseapp.com",
+        projectId: "well-dishes-app",
+        storageBucket: "well-dishes-app.appspot.com",
+        messagingSenderId: "926294224559",
+        appId: "1:926294224559:web:6605bde7637860f6d06e5a",
+        measurementId: "G-HSGVJNT4RS",
+      };
+
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="admin_product.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
